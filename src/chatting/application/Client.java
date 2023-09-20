@@ -14,9 +14,7 @@ public class Client  implements ActionListener{
     static DataOutputStream dout;
     static JFrame f = new JFrame();
     Client(){
-        
         f.setLayout(null);
-        
         JPanel p1 = new JPanel();
         p1.setBackground(Color.BLUE);
         p1.setBounds(0, 0, 450, 60);
