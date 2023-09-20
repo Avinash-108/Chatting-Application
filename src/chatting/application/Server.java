@@ -13,9 +13,7 @@ public class Server implements ActionListener{
     static JFrame f = new JFrame();
     static DataOutputStream dout;
     Server(){
-        
         f.setLayout(null);
-        
         JPanel p1 = new JPanel();
         p1.setBackground(Color.BLUE);
         p1.setBounds(0, 0, 450, 60);
