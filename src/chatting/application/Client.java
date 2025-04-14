@@ -126,10 +126,8 @@ public class Client  implements ActionListener{
                 vertical.add(Box.createVerticalStrut(15));
                 a1.add(vertical, BorderLayout.PAGE_START);
                 f.validate();
-            }
-            
-        }catch(Exception e){
-            
+            }   
+        }catch(Exception e){  
         }
     }  
 }
